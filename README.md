@@ -52,4 +52,3 @@ struct account {
 3.  Use the main menu to perform transactions.
 4.  **Important:** Select option `4` to Exit, which triggers the `delete[]` command to free allocated memory and prevent leaks.
 
-> **Note:** This program uses a `goto` loop for the main menu. While functional for small scripts, consider refactoring to a `do-while` loop for more complex projects!
